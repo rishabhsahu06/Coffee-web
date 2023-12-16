@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#1F1D47;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+#head{
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+}
+.container{
+    width: 1000px;
+ 
+   display: flex;
+margin: 0 auto;
+justify-content: space-between;
+margin-top: 2rem;
+}
+#input{
+    background-color: transparent;
+    text-decoration: none;
+    padding: 5px 40px;
+    border: none;
+}
+#btn{
+  color: red;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+
+}
+.footer-container{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+   
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+#h1-menu{
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    
+}
+.icons{
+    width: 333px;
+    margin-top: 3rem;
+
+}
+#icons-h1{
+    color: white;
+}
+.icons-card i{
+    color: white;
+    margin-right: 20px;
+    margin-top: 2rem;
+}
+.contact-icons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  
+}
+.contact-icons i {
+    color:white;
+    margin-top: 1rem;
+    margin-right: 10px;
+
+}
+#copyright{
+    color: gray;
+    text-align: center;
+    margin-top: 5rem;
+}
+#footer-side-img{
+    position: fixed;
+    top: 35rem;
+    right: 0;
+}
+hr{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#btn a{
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 10px;
+    color: red;
+ 
+}
+@media (max-width:480px){
+.img-container img{
+    width: 180px;
+    height: 100px;
+    justify-content: center;
+}
+
+#head{
+    text-align: center;
+    font-size: 20px;
+}
+
+#btn{
+    width: 100px;
+    text-align: center;
+   border: none;
+   margin-right: 1.5rem;
+}
+.container{
+    width: 90%;
+ 
+   display: flex;
+margin: 0 auto;
+justify-content: space-between;
+margin-top: 2rem;
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.footer-container{
+    width: 100%;
+   flex-direction: column;
+
+}
+#h1-menu{
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    
+    
+}
+.menu{
+    margin: 0 auto;
+
+}
+.icons{
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+#copyright{
+    width: 60%;
+    text-align: center;
+}
+#footer-side-img{
+    width: 180px;
+    height: 150px;
+}
+}
